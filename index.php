@@ -101,10 +101,7 @@
         echo "Farba: $color <br>";
     }
 
-    $data = array("Peter" => 25, 
-                  "Jana" => 30, 
-                  "Marek" => 20
-                );
+    $ages = array("Peter" => 25, "Jana" => 30, "Marek" => 20, "Jozef => 50");
     
     foreach($data as $name => $age){
         echo "$name má $age rokov <br>";
